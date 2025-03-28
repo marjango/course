@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Doloman Pavljenko';
+    src: url('/fonts/DolomanPavljenco.otf') format('otf'),
+         url('/fonts/DolomanPavljenco.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+   @font-face {
+     font-family: "Intro Friday";
+     src: url("./fonts/IntroFriday-Regular.ttf") format("ttf"),
+       url("./fonts/IntroFriday-Regular.ttf") format("ttf");
+     font-weight: normal;
+     font-style: normal;
+   }
+   

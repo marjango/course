@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    height: 66.6667vw; /* (1280px / 1920) * 100 = 66.6667vw */
+    padding: 7.0313vw 7.2917vw 0 7.2917vw; /* (135px / 1920) * 100 = 7.0313vw, (140px / 1920) * 100 = 7.2917vw */
+    background-color: #2c3e50;
+    background-image: url(./img/background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+  }
+  
+  .header {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    margin-right: 17.0833vw; /* (328px / 1920) * 100 = 17.0833vw */
+    padding: 0.5208vw 1.3542vw; /* (10px / 1920) * 100 = 0.5208vw, (26px / 1920) * 100 = 1.3542vw */
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 1.5104vw; /* (29px / 1920) * 100 = 1.5104vw */
+    color: #064b9b;
+    font-size: 2.0833vw; /* (40px / 1920) * 100 = 2.0833vw */
+    line-height: 2.0833vw; /* (40px / 1920) * 100 = 2.0833vw */
+    font-weight: 300;
+  }
+  
+  .nav {
+    justify-self: center;
+    color: white;
+    font-size: 1.8229vw; /* (35px / 1920) * 100 = 1.8229vw */
+    font-weight: 300;
+    display: flex;
+    gap: 3.8021vw; /* (73px / 1920) * 100 = 3.8021vw */
+  }
+  
+  .auth {
+    margin-left: 5.5729vw; /* (107px / 1920) * 100 = 5.5729vw */
+    display: flex;
+    gap: 1.71875vw;
+  }
+  
+  .login {
+    background-color: #d9d9d9;
+    width: 118px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 1.5104vw; /* (29px / 1920) * 100 = 1.5104vw */
+    color: black;
+    font-size: 1.8vw; /* (40px / 1920) * 100 = 2.0833vw */
+    line-height: 1.8vw; /* (40px / 1920) * 100 = 2.0833vw */
+    font-weight: 300;
+  }
+  
+  .registration {
+    background-color: #1b2838;
+    border: none;
+    padding: 0.6771vw 1.0417vw; /* (13px / 1920) * 100 = 0.6771vw, (20px / 1920) * 100 = 1.0417vw */
+    border-radius: 1.5104vw; /* (29px / 1920) * 100 = 1.5104vw */
+    color: white;
+    font-size: 1.8vw; /* (40px / 1920) * 100 = 2.0833vw */
+    line-height: 1.8vw; /* (40px / 1920) * 100 = 2.0833vw */
+    font-weight: 300;
+  }

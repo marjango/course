@@ -1,0 +1,35 @@
+.registration {
+    background-color: #1B2838;
+    padding: 120px 140px;
+}
+.registration h1 {
+    font-family: 'Doloman Pavljenko';
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 52px;
+}
+.button {
+    width: 118px;
+    height: 60px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 29px;
+    color: #064B9B;
+}
+.logo {
+    padding: 0.52vw 1.35vw;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 1.51vw;
+    color: #064b9b;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    font-weight: 300;
+  }
+
+.container {
+    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

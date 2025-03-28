@@ -1,0 +1,140 @@
+.coursePage {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 7.03vw 7.29vw 0 7.29vw;
+    background-color: #131c27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom-right-radius: 4.17vw;
+    border-bottom-left-radius: 4.17vw;
+  }
+  
+  .headerContainer {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10.42vw;
+  }
+  
+  .logo {
+    padding: 0.52vw 1.35vw;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 1.51vw;
+    color: #064b9b;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    font-weight: 300;
+  }
+  
+  .nav {
+    margin-left: 17.08vw;
+    justify-self: center;
+    font-size: 1.82vw;
+    font-weight: 300;
+    display: flex;
+    gap: 3.8vw;
+  }
+  
+  .personal {
+    margin-left: 5.57vw;
+    background-color: #d9d9d9;
+    width: 12.66vw;
+    height: 3.13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.51vw;
+    color: black;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    font-weight: 300;
+  }
+  
+  .hero {
+    display: flex;
+    gap: 67px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    max-width: 900px;
+  }
+  .hero img {
+    border-radius: 30px;
+  }
+  
+  .coursespage-footer {
+    padding: 6.51vw 8.28vw 4.79vw 7.97vw;
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    height: 18.33vw;
+  }
+  .item {
+    position: absolute;
+  }
+  .item p {
+    font-size: 1.67vw;
+    line-height: 1.67vw;
+    font-weight: 300;
+    color: #1b2838;
+  }
+  
+  .item:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  .item:nth-child(2) {
+    top: 0;
+    right: 0;
+    margin-top: 3.44vw;
+  }
+  .item:nth-child(3) {
+    bottom: 0;
+    left: 0;
+  }
+  .item:nth-child(4) {
+    bottom: 0;
+    right: 0;
+    text-align: right;
+  }
+  .socials {
+    background-image: url(../mainpage/img/socials.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 11.51vw;
+  }
+  
+  .footerLogo {
+    width: 6.15vw;
+    height: 3.13vw;
+    border: none;
+    border-radius: 1.51vw;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    font-weight: 300;
+    color: #064b9b;
+    background-color: #d9d9d9;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

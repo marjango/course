@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Doloman Pavljenko';
+}
+
+h1 {
+  font-family: 'Intro Friday', sans-serif;
+  font-weight: bold;
+}

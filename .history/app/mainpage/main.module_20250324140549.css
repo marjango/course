@@ -1,0 +1,16 @@
+.container {
+   background-image: url(./img/background.svg);
+}
+.header {
+    background: transparent;
+    display: flex;
+    
+}
+.button {
+    width: 118px;
+    height: 60px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 29px;
+    color: #064B9B;
+}

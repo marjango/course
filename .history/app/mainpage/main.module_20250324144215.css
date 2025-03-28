@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  height: 1280px;
+  padding: 135px 140px 0 140px;
+  background-color: #2c3e50; /* Темно-серый/синеватый цвет фона */
+  background-image: url(./img/background.svg); /* Путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.header {
+  background: transparent;
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Создаем три колонки: auto, 1fr, auto */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  width: 100%;
+}
+.logo {
+  justify-self: start; /* Прижимаем первый элемент к началу колонки */
+  margin-right: 328px;
+  padding: 10px 26px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 29px;
+  color: #064b9b;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 300;
+}
+.nav {
+  justify-self: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+  display: flex;
+  gap: 73px;
+}
+.auth {
+  justify-self: end; /* Прижимаем третий элемент к концу колонки */
+  margin-left: 107px;
+}

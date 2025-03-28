@@ -1,0 +1,303 @@
+.mainpage-header {
+  position: relative; 
+  width: 100%;
+  height: 66.67vw;
+  padding: 7.03vw 7.29vw 0 7.29vw;
+  background-color: #131c27; 
+  z-index: 2;
+}
+
+.mainpage-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/background.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: 1;
+  pointer-events: none; 
+}
+.headerContainer {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  padding: 0.52vw 1.35vw;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 1.51vw;
+  color: #064b9b;
+  font-size: 2.08vw;
+  line-height: 2.08vw;
+  font-weight: 300;
+}
+
+.nav {
+  margin-left: 17.08vw;
+  justify-self: center;
+  color: white;
+  font-size: 1.82vw;
+  font-weight: 300;
+  display: flex;
+  gap: 3.8vw;
+}
+
+.auth {
+  margin-left: 5.57vw;
+  display: flex;
+  gap: 1.72vw;
+}
+
+.login {
+  background-color: #d9d9d9;
+  width: 6.15vw;
+  height: 3.13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 1.51vw;
+  color: black;
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  font-weight: 300;
+}
+
+.registration {
+  background-color: #1b2838;
+  width: 9.79vw;
+  height: 3.13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0.67vw 1.04vw;
+  border-radius: 1.51vw;
+  color: white;
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  font-weight: 300;
+}
+
+.hero {
+  padding-top: 13.54vw;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3.39vw;
+  max-width: 52.08vw;
+}
+
+.btns {
+  margin-top: 2.34vw;
+  display: flex;
+  align-items: center;
+  gap: 1.93vw;
+}
+
+.btn1 {
+  width: 12.5vw;
+  height: 3.65vw;
+  background-color: #1b2838;
+  color: white;
+  border-radius: 1.85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.82vw;
+}
+
+.btn2 {
+  color: white;
+  font-size: 1.82vw;
+}
+.about {
+  height: 65.26vw;
+  background-color: #d9d9d9;
+  padding: 12.81vw 7.45vw 15.31vw 7.45vw;
+}
+
+.about h1 {
+  color: #1b2838;
+}
+
+.aboutText {
+  margin-top: 3.75vw;
+  background-color: #1b2838;
+  border-radius: 1.61vw;
+  width: 60.73vw;
+  height: 30vw;
+  padding: 2.81vw 2.45vw;
+}
+
+.aboutText p {
+  color: white;
+  font-size: 2.08vw;
+  line-height: 2.08vw;
+  font-weight: 300;
+}
+
+.coursesContainer {
+  height: 65.26vw;
+  background-color: #1b2838;
+  padding: 16vw 7.29vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9.48vw;
+}
+.courses {
+  display: flex;
+  gap: 10.36vw;
+}
+.course1,
+.course2,
+.course3 {
+  width: 21.61vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.82vw;
+  line-height: 1.82vw;
+  font-weight: 300;
+}
+.course1,
+.course2,
+.course3 img {
+  border-radius: 1.04vw;
+}
+.course1,
+.course2 {
+  height: 20.1vw;
+}
+.course3 {
+  height: 17.45vw;
+}
+
+.reviews {
+  height: auto;
+  background-color: #d9d9d9;
+  padding: 9.48vw 7.29vw 21.88vw 7.97vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews h1 {
+  text-align: right;
+  color: #1b2838;
+}
+.reviewList {
+  margin-top: 10.16vw;
+  display: flex;
+  flex-direction: column;
+  gap: 11.72vw;
+  position: relative;
+}
+
+.reviewer1{
+  position: absolute;
+  top: 212px;
+  right: 0;
+  width: 203px;
+  height: 203px;
+}
+.reviewer2 {
+  position: absolute;
+  top: 212px;
+  left: 0;
+  width: 203px;
+  height: 203px;
+}
+.reviewer3 {
+  position: absolute;
+  top: 212px;
+  left: 0;
+  width: 203px;
+  height: 203px;
+}
+.reviewItem {
+  width: 65.26vw;
+  background-color: #1b2838;
+  border-radius: 0.94vw;
+  padding: 2.45vw 2.86vw;
+}
+.reviewItem p {
+  font-size: 2.45vw;
+  line-height: 2.45vw;
+}
+.author {
+  text-align: right;
+}
+
+.reviewItem:nth-child(2) {
+  margin-left: 15.78vw;
+  width: 65.26vw;
+  background-color: #1b2838;
+  border-radius: 0.94vw;
+  padding: 2.45vw 2.86vw;
+  align-self: right;
+  font-size: 2.45vw;
+}
+
+.mainpage-footer {
+  padding: 1.46vw 8.28vw 4.79vw 7.97vw;
+  width: 100%;
+  height: auto;
+  background-color: #1b2838;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+  height: 18.33vw;
+}
+.item {
+  position: absolute;
+}
+.item p {
+  font-size: 1.67vw;
+  line-height: 1.67vw;
+  font-weight: 300;
+  color: white;
+}
+.item:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.item:nth-child(2) {
+  top: 0;
+  right: 0;
+  margin-top: 3.44vw;
+}
+.item:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.item:nth-child(4) {
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.socials {
+  background-image: url(./img/socials.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23vw;
+  height: 11.51vw;
+}

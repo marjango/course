@@ -1,0 +1,46 @@
+.container {
+   width: 100%;
+   height: 1600px;
+   padding: 135px 140px 0 140px;
+   position: relative; /* Необходимо для позиционирования псевдоэлемента */
+    background-image: url(./img/background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.container::before {
+    content: ''; /* Обязательно для псевдоэлемента */
+    position: absolute; /* Позиционируем псевдоэлемент относительно .container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1B2838; /* Задаем цвет фона */
+    z-index: -1; /* Помещаем псевдоэлемент позади изображения */
+  }
+.header {
+    background: transparent;
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Создаем три колонки: auto, 1fr, auto */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    width: 100%; 
+
+}
+.logo{
+    justify-self: start; /* Прижимаем первый элемент к началу колонки */
+    margin-right: 328px;
+    width: 118px;
+    height: 60px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 29px;
+    color: #064B9B;
+}
+.nav{
+    justify-self: center;
+}
+.auth{
+    justify-self: end; /* Прижимаем третий элемент к концу колонки */
+    margin-left: 107px;
+}

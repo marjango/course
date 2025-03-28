@@ -1,0 +1,6 @@
+* {
+    background-color: ;
+}
+.button {
+    @apply rounded-[29px] bg-[#D9D9D9]  
+}

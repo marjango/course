@@ -1,0 +1,86 @@
+.registration, .login, .passforgetPage {
+    background-color: #1B2838;
+    padding: 6.25vw 7.29vw;
+    width: 100%;
+    height: 66.67vw;
+}
+
+.container h1 {
+    font-family: 'Doloman Pavljenko';
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 2.71vw;
+}
+
+.logo {
+    padding: 0.52vw 1.35vw;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 1.51vw;
+    color: #064b9b;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    font-weight: 300;
+}
+
+.container {
+    margin-top: 6.35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.72vw;
+}
+
+.container input {
+    width: 37.19vw;
+    height: 5.57vw;
+    background-color: #D9D9D9;
+    border-radius: 1.72vw;
+    padding: 2.08vw 2.97vw;
+    font-size: 1.61vw;
+    color: #1B2838;
+}
+
+.passforget {
+    font-size: 1.25vw;
+    line-height: 0;
+    color: white;
+    align-self: flex-end;
+}
+
+.btnRegister {
+    margin: 2.71vw 0 17.97vw 0;
+    width: 25.05vw;
+    height: 4.22vw;
+    background-color: #5A6779;
+    border-radius: 2.14vw;
+    color: white;
+    font-size: 1.98vw;
+}
+
+.btnLogin {
+    width: 11.25vw;
+    height: 4.22vw;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 2.14vw;
+    color: #064B9B;
+    font-size: 1.98vw;
+    margin-right: 0.83vw;
+}
+
+.btnSend {
+    margin-top: 4.38vw;
+    width: 18.49vw;
+    height: 4.22vw;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 2.14vw;
+    color: #064B9B;
+    font-size: 1.98vw;
+}

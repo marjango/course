@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Doloman Pavljenko';
+    src: url('/fonts/DolomanPavljenco.otf') format('woff2'),
+         url('/fonts/DolomanPavljenco.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }

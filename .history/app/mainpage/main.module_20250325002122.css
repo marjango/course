@@ -1,0 +1,131 @@
+.container {
+    position: relative; /* Необходимо для позиционирования псевдоэлемента */
+    width: 100%;
+    height: 66.67vw;
+    padding: 7.03vw 7.29vw 0 7.29vw;
+    background-color: #131C27; /* Задаем цвет фона без прозрачности */
+  }
+  
+  .container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: 1;
+    pointer-events: none; /* Отключаем события мыши */
+  }
+  .header {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    margin-right: 17.08vw;
+    padding: 0.52vw 1.35vw;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 1.51vw;
+    color: #064b9b;
+    font-size: 2.08vw;
+    line-height: 2.08vw;
+    font-weight: 300;
+  }
+  
+  .nav {
+    justify-self: center;
+    color: white;
+    font-size: 1.82vw;
+    font-weight: 300;
+    display: flex;
+    gap: 3.8vw;
+  }
+  
+  .auth {
+    margin-left: 5.57vw;
+    display: flex;
+    gap: 1.72vw;
+  }
+  
+  .login {
+    background-color: #d9d9d9;
+    width: 6.15vw;
+    height: 3.13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.51vw;
+    color: black;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    font-weight: 300;
+  }
+  
+  .registration {
+    background-color: #1b2838;
+    width: 9.79vw;
+    height: 3.13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0.67vw 1.04vw;
+    border-radius: 1.51vw;
+    color: white;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    font-weight: 300;
+  }
+
+  .hero {
+    padding-top: 13.54vw;
+  }
+  
+  .hero h1 {
+    color: white;
+    font-size: 3.39vw;
+    max-width: 52.08vw;
+  }
+  
+  .btns {
+    margin-top: 2.34vw;
+    display: flex;
+    align-items: center;
+    gap: 1.93vw;
+  }
+  
+  .btn1 {
+    width: 12.5vw;
+    height: 3.65vw;
+    background-color: #1B2838;
+    color: white;
+    border-radius: 1.85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.82vw;
+  }
+  
+  .btn2 {
+    color: white;
+    font-size: 1.82vw;
+  }
+
+  .about {
+    height: 1253px;
+    background-color: #D9D9D9;
+
+  }
+  .about h1 {
+    color: #1B2838;
+  }
